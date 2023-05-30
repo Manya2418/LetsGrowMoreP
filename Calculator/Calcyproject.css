@@ -1,0 +1,99 @@
+ *{
+    margin:0;
+    padding:0; 
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/80/06/3757c30a762387b.jpg" );
+    background-size: 1400px 650px;
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.input{
+    font-size:25px;
+    padding:10px;
+    margin:5px;
+    cursor: pointer;
+    width:55px;
+    color:rgb(255, 255, 255);
+   background-color: transparent;
+   box-shadow: 2px 2px 4px rgb(56, 195, 255),2px 1px 1px 2px rgb(1, 69, 98);
+    border-radius:10px;}
+.input:hover{
+    transform: scale(1.1);
+}
+
+
+.input1{
+
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size:22px;
+    padding:10px;
+    margin:5px;
+    cursor: pointer;
+    background: linear-gradient(50deg, rgb(23, 182, 251), rgb(1, 43, 61));
+    border:none;
+    border-radius: 5px;
+    width:55px;
+    }
+
+
+        
+.input2{
+    
+    color:rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px rgb(56, 195, 255),2px 2px 4px rgb(56, 195, 255),2px 1px 1px 2px rgb(56, 195, 255);
+    background-color: transparent;
+    font-size:25px;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 5px;
+   
+    
+  
+}
+.input2:hover{
+    transform: scale(1.1);
+   
+}
+.input1:hover{
+    transform: scale(1.2);
+}
+
+        
+ @media (max-width:480px)
+        {
+            body{
+
+
+                background-size:500px 500px;
+                display: flex;
+                background-repeat: repeat;
+                justify-content:left;
+                margin-top: 0px;
+               
+            }
+        }
+
+.main2{
+    background-color: transparent;
+    box-shadow: 2px 2px 4px rgb(56, 195, 255),2px 2px 4px rgb(56, 195, 255),2px 1px 1px 2px rgb(56, 195, 255);
+    padding: 10px;
+}
+.form{
+    width:265px;
+    height:100px; 
+    outline:none;    
+    font-size:25px; 
+    padding:10px; 
+    margin:5px;
+    background-color:rgb(255, 255, 255); 
+    border-radius:5px;
+}
