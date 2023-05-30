@@ -1,0 +1,90 @@
+*{
+    padding:0%;
+    margin:0%;
+
+
+}
+video{
+    height: 100px;
+}
+body{
+
+    display: grid;
+    
+    place-content: center; 
+    background:url("https://cdn.wallpapersafari.com/91/36/vlwEeB.jpg");
+    /* transform: rotate(300deg); */
+}
+
+.main{
+    margin-top: 50px;
+    background:linear-gradient(20deg, rgb(121, 184, 255,1.5),rgb(50, 91, 255,0.5));
+    padding: 15px;
+
+    width:420px;
+    box-shadow: 2px 2px 2px 3px rgb(205, 193, 193);
+    border-radius: 10px;
+
+
+}
+
+
+.main input{
+    font-size: large;
+    text-align: center;
+    height: 42px;
+    width:320px;
+    outline: none;
+   
+   
+}
+
+button{
+    height:43px;
+    width:70px;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    background-color:rgb(255, 248, 121);
+    border:2px solid transparent;
+    font-size: large;
+    text-align: center;
+}
+.main h1{
+  
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+button:hover{
+
+    box-shadow: 0px 0px 2px 3px rgb(255, 248, 121);
+}
+
+
+.todostyle li{
+
+    display:flex;
+    color:rgb(255, 255, 255);
+    font-size: 23px;
+    height: auto;
+    
+    justify-content:space-between;
+    padding: 5px;
+   
+
+} 
+input[type="checkbox"]{
+    width: 1.15em;
+    height: 1.15em;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+
